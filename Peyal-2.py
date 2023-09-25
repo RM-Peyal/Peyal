@@ -19,7 +19,7 @@ try:
     prox= requests.get('https://raw.githubusercontent.com/PEYAL-Fire/data/main/proxies.txt').text
     open('proxies.txt','w').write(proxies)
 except Exception as e:
-    print('\x1b[1;92m[√] LOADING...')
+       print('\x1b[1;92m[√] LOADING...')
 	
 proxies=open('proxies.txt','r').read().splitlines()
 
